@@ -1,0 +1,39 @@
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@using BookStore.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{ 
+    var claim = ((ClaimsIdentity) User.Identity).Claims.FirstOrDefault(c => c.Type == "Name")?.Value;
+}
+
+@if(SignInManager.IsSignedIn(User))
+{
+    <form asp-action="LogOut" asp-controller="Account" method="POST">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a><img src="https://image.flaticon.com/icons/svg/60/60992.svg" alt="Shopping Cart" style="width:20px;height:20px;"></a>
+            </li>
+            <li>
+                <button class="btn btn-link navbar-btn navbar-link">@claim</button>
+            </li>
+
+            <li>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link">Log Out</button>
+            </li>            
+        </ul>
+    </form>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+        </li>
+
+        <li>
+            <a asp-area="" asp-controller="Account" asp-action="Login">Log in</a>
+        </li>
+    </ul>
+}
