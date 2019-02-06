@@ -8,6 +8,7 @@ C:\Users\Ólafur\Desktop\VERKLEG ÖNN 2\Code\BookStore\obj\Debug\netcoreapp2.0\B
 C:\Users\Ólafur\Desktop\VERKLEG ÖNN 2\Code\BookStore\obj\Debug\netcoreapp2.0\BookStore.AssemblyInfo.cs
 C:\Users\Ólafur\Desktop\VERKLEG ÖNN 2\Code\BookStore\obj\Debug\netcoreapp2.0\BookStore.dll
 C:\Users\Ólafur\Desktop\VERKLEG ÖNN 2\Code\BookStore\obj\Debug\netcoreapp2.0\BookStore.pdb
+<<<<<<< HEAD
 C:\Users\Stefan\Downloads\Hopur-32-2018-master\bin\Debug\netcoreapp2.0\BookStore.deps.json
 C:\Users\Stefan\Downloads\Hopur-32-2018-master\bin\Debug\netcoreapp2.0\BookStore.runtimeconfig.json
 C:\Users\Stefan\Downloads\Hopur-32-2018-master\bin\Debug\netcoreapp2.0\BookStore.runtimeconfig.dev.json
@@ -28,3 +29,5 @@ C:\Users\Stefan\Downloads\BookStore\obj\Debug\netcoreapp2.0\BookStore.AssemblyIn
 C:\Users\Stefan\Downloads\BookStore\obj\Debug\netcoreapp2.0\BookStore.AssemblyInfo.cs
 C:\Users\Stefan\Downloads\BookStore\obj\Debug\netcoreapp2.0\BookStore.dll
 C:\Users\Stefan\Downloads\BookStore\obj\Debug\netcoreapp2.0\BookStore.pdb
+=======
+>>>>>>> d901b9c1c3040f19009bd6c7dcdf58e83a9a98d6
